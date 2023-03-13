@@ -13,14 +13,15 @@ dependencies:
   - scikit-learn
   - opencv
   - scikit-image
-  - wandb
   - mamba
+  - ninja 
+  - gcc=8.5.0
+  - gxx_linux-64
   - cudatoolkit
   - scipy
-  - pytorch=1.6.0=cuda101py36h42dc283_1
   - pip
-  - pytorch3d
   - pip:
     - https://download.pytorch.org/whl/cu101/torch-1.6.0%2Bcu101-cp36-cp36m-linux_x86_64.whl
     - https://download.pytorch.org/whl/cu101/torchvision-0.7.0%2Bcu101-cp36-cp36m-linux_x86_64.whl
     - pytorch3d==0.2.5
+    - wandb
