@@ -30,6 +30,8 @@ PyTorch 1.4
 
 Python 3.6.9
 
+Update: You can use the enviroment.yaml file created by ctr26 to find the necessary packages. 
+
 ## Dataset
 
 &emsp;1. [CHAOS dataset](https://chaos.grand-challenge.org/Download/)  . 
@@ -73,5 +75,5 @@ isbn="978-3-030-59719-1"
 ```
 
 ## Contact
-For any questions regard this paper/code, please directly contact [Udaranga Wickramasinghe](mailto:udaranga@gmail.com).
+For any questions regard this paper/code, please make a post in Issues.
 
