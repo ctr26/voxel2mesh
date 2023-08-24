@@ -17,8 +17,11 @@ dependencies:
   - ninja 
   - gcc=8.5.0
   - gxx_linux-64
-  - cudatoolkit
+  - cudatoolkit-dev=10.1
   - scipy
+  - gcc=8
+  - gcc_linux-64=8
+  - gxx_linux-64=8
   - pip
   - pip:
     - https://download.pytorch.org/whl/cu101/torch-1.6.0%2Bcu101-cp36-cp36m-linux_x86_64.whl
