@@ -23,8 +23,9 @@ dependencies:
   - gcc_linux-64=8
   - gxx_linux-64=8
   - pip
+  - wandb
+  - cuda-toolkit
   - pip:
     - https://download.pytorch.org/whl/cu101/torch-1.6.0%2Bcu101-cp36-cp36m-linux_x86_64.whl
     - https://download.pytorch.org/whl/cu101/torchvision-0.7.0%2Bcu101-cp36-cp36m-linux_x86_64.whl
     - pytorch3d==0.2.5
-    - wandb
